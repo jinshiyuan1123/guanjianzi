@@ -1,0 +1,59 @@
+body,ul,li,ol,span,{padding:0;margin:0;list-style: none;}
+body{background: url(../images/bg.jpg);font-size: 14px; }
+.game-box {border:3px solid #000;margin:15px;background: #ffffff; }
+.game-box-main{text-align: center;}
+.game-box-main .inputbox {padding:5px}
+.game-box-main .inputbox .text-inp{height:50px;line-height:50px;border:3px solid #000;font-size:16px;text-indent:0px;font-family:microsoft yahei;width: 90%; margin: 0 auto; text-align: center;border-radius: 0}
+.game-box-top{padding:10px;border-bottom: 5px solid #000;margin-bottom: 10px; height:45px; background:#fff; }
+.game-logo {float: left;font-size:20px; font-family: "microsoft yahei";padding:0;margin: 0;line-height: 18px}
+.game-close{background: url(../images/close.png) 10px 2px no-repeat ;background-size:56px 15px; float: right; width: 65px; height: 28px;}
+.button-go {position: relative; width: 90%;padding-top:20px;padding-bottom: 20px; margin: 0 auto}
+.button-go button{ height: 50px; line-height: 40px; border:5px solid #000; background:#ff672b; margin-top:20px;padding-top:0px;position: relative; color: #000; font-family: "microsoft yahei";font-size:25px;font-weight:600； display: block; position: relative;cursor: pointer; text-decoration: none;}
+.button-go small.head{background: url(../images/head.png) no-repeat; background-size: 45px 45px; width: 80px; height: 50px; display: block; position:absolute;z-index: 888; right:15px; top:60px }
+.game-margin{padding-top:20px; padding-bottom: 20px}
+.game-margin img{}
+
+.form-rad input {font-size:10px}
+.game-box-footer{background:#000; line-height: 35px; height: 35px; text-align: center; margin-top:15px; }
+.game-box-footer a {color: #fff; text-decoration:none;font-size: 14px; font-family: microsoft yahei}
+.nan{ background:url(../images/nan.png) 0px 3px no-repeat; background-size: 100%;height:35px;width: 90px;margin-left:15px;}
+.nv{background: url(../images/nv.png) 0px 3px no-repeat;background-size: 100%;height:35px;width: 90px;margin-left:15px;}
+
+
+
+/*复选框*/
+.roundedTwo input{ display: none }
+.roundedTwo {
+  width: 25px;
+  height: 25px;
+  position: relative;
+ background:url(../images/quan.png) no-repeat;
+  background-size: 25px 25px;
+}
+.roundedTwo label {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  cursor: pointer;
+}
+.roundedTwo label:after {
+  content: '';
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  
+}
+.roundedTwo label:hover::after {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=10);background: url(../images/yuan.png) no-repeat;top:5px;right:12px;
+  background-size: 15px 15px;
+  
+}
+.roundedTwo input[type=checkbox] {
+  visibility: hidden;
+}
+.roundedTwo input[type=checkbox]:checked + label:after {
+  filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
+  opacity: 1;
+}
+
+/*复选框结束*/
